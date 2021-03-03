@@ -1,0 +1,49 @@
+1.2.6 - 02 May 2018
+Bugfix - Better handling of the CTRL-C signal.
+
+1.2.7 - 04 May 2018
+Feature - Added recurse option
+
+1.2.8 - 11 May 2018
+Bugfix - clean Searched string to avoid: C:\$RECYCLE.BINles
+Feature - mark a found dir [D]
+Feature - replaced --full with --fullsearch
+
+1.4.8 - 22 March 2020
+Feature - Added man
+Feature - Multiple features, sorted the display levels, added log mode, etc.
+Multiple bugfixes
+
+1.4.8 - 23 March 2020
+Feature - Added -p match whole path against pattern
+Feature - Added -f match files only, excluding dirs
+
+1.5.0 - 27 March 2020
+Cleaned up the whole application
+
+1.5.1 - 31 March 2020
+Minor bug fixing and cleanup of ulib
+
+1.5.5 - 05 May 2020
+Minor bug fixes, code cleanup, added additional path option
+
+1.5.6 - 12 Nov 2020
+Bugfix - Fixed Ctrl-C message overlapping with output
+Feature - Added dirs only mode
+
+2.0.0 - 16 Nov 2020
+Major Feature - Complete rewrite of ListDir function, now it recurses corectly.
+Feature - Speed improvement
+Bugfix - Fixed minor bug in ulib
+Bugfix - Fixed -a option not being handled correctly
+
+2.0.1 - 17 Nov 2020
+Feature - Minor code cleanup
+Feature - Minor rewrites to the man help page
+Bugfix - Fixed -r not working after the rewrite of ListDir
+
+2.0.4 - 03 March 2021
+Bugfix - Incorrect size sent to push into vector function
+Feature - Minor code cleanup and formatting
+
+
