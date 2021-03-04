@@ -40,22 +40,27 @@
 
 ### Default settings
 The simplest usage form of ufind is: 
-* ufind c:
+* ufind
 
+If no path is specified, will default to current dir.
 If no file pattern is specified, this will enable search for everything.
 Also, by default, case sensitive search is disabled.
+
 ### Wildcard usage
 ufind interprets * wildcard as [anything]
 * \*   means that ufind will search for [anything]
 * \*.* means that ufind will search for [anything].[anything] - notice the mandatory dot
 
 ## Examples
-
     ufind c:
-Searches everything in root of drive c
+Searches everything in root of drive c.
+
+    ufind c: /r /s /i
+
+Searches silently and recursively for all the files on drive c, at the end displaying short statistics.
 
     ufind c: \*nvidia\*nvdrs*.* -r -p
 Output:  c:\Windows\System32\drivers\NVIDIA Corporation\Drs\nvdrsdb.bin
     NOTE: if using ufind with /p option, please note the * at the start of 
           the search pattern, if it's missing, ufind will search for something 
-          starting with nvidia
+          starting with nvidia.
