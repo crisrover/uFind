@@ -1,4 +1,4 @@
-# ufind
+# uFind
 
 ## Description 
 Find command line utility for Windows.
